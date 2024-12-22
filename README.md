@@ -29,7 +29,7 @@ Ensure you have the following installed on your system:
 ### Steps  
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository_url>
+   git clone <https://github.com/SviatlanaSv/2024-12-20-TIC-TAC-TOE.git>
    ```
 
 2. Install the required dependencies:

@@ -8,8 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-  "cypress:open": "cypress open",
-  "cypress:run": "cypress run"
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run"
+
+  
   },
   "dependencies": {
     "cypress": "^13.17.0",
