@@ -1,20 +1,12 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
 # 2024-12-20-TIC-TAC-TOE
 
 
 ## Project Overview  
-This project is a **Tic Tac Toe** game built with React. The application allows users to play in **2 Player Mode**, where two users can take turns playing on the same device.  
+This project is a **Tic Tac Toe** game built with React. The application allows users to play in two modes.
+In **Play with a Friend Mode**, two users can take turns playing on the same device. In **Play with a Robot Mode**, one player can challenge the AI, where the robot makes its moves automatically.
 
-The game features a reset button to restart the game and displays the winner when a player achieves a winning combination.
+The game features a reset button to restart the game and displays the winner when a player achieves a winning combination. Additionally, if no player wins and all spaces are filled, the game ends in a draw.
+
 
 ---
 
@@ -74,7 +66,7 @@ This project includes Cypress tests to ensure functionality.
 ### Running Tests in Headless Mode  
 To execute the tests in headless mode:
 ```bash
-npm run cypress:run
+npm run cypress:cli
 ```
 
 ---
@@ -82,12 +74,20 @@ npm run cypress:run
 ## Features
 
 ### Gameplay  
-- **2 Player Mode**: Players take turns making moves.
+- **Play with a Friend Mode**: Players take turns making moves against each other.
+- **Play with a Robot Mode**: Players can play against an AI robot, which automatically makes its moves.
 
 ### User Interface  
 - Displays the current player's turn.
-- Highlights the winner when the game ends.
+- Highlight the winner or draw when the game is over.
 - A "Reset Game" button to restart the game.
+- Two game boards are available:
+- **Play with a Friend Mode**: A board for 2-player gameplay.
+- **Play with a Robot Mode**: A board for playing against the robot.
+
+### AI in Play with a Robot Mode
+- The robot makes simple moves based on an algorithm, taking turns against the player.
+- The robot's moves are implemented with basic AI logic. (Future improvements will focus on enhancing the AI's strategy.)
 
 ### Testing  
 The application is covered by Cypress end-to-end tests to ensure:
@@ -108,6 +108,10 @@ The application is covered by Cypress end-to-end tests to ensure:
 ## Future Improvements  
 - Improve the AI to make strategic moves instead of random ones.
 - Add animations for a better user experience.
-- Enhance mobile responsiveness.
+- Add a timer to limit the time each player has to make a move.
+- Add a feature to allow players to choose their own names.
+- Add a feature to allow players to choose their own symbols.
+- Add a feature to allow players to play on different devices.
+
 
 ---
