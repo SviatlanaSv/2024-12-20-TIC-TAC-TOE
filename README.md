@@ -23,6 +23,7 @@ Ensure you have the following installed on your system:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/SviatlanaSv/2024-12-20-TIC-TAC-TOE.git
+   cd 2024-12-20-TIC-TAC-TOE
    ```
 
 2. Install the required dependencies:
