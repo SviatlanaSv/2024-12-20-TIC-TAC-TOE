@@ -8,6 +8,9 @@ This project is a **Tic Tac Toe** game 🎮 built with React. The application al
 
 The game features a reset button to restart the game and displays the winner 🏆 when a player achieves a winning combination. Additionally, if no player wins and all spaces are filled, the game ends in a draw.
 
+<img width="741" alt="image" src="https://github.com/user-attachments/assets/566fea2e-5cd9-4f65-9eb6-801cbe59c65e" />
+
+
 
 ---
 
@@ -64,6 +67,9 @@ npm run cypress:open
    ```
 
 3. Run the tests located in the `cypress/e2e` folder.
+
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/89096320-e44f-4691-b0e1-8262fb6ba161" />
+
 
 ### Running Tests in Headless Mode  
 To execute the tests in headless mode:
